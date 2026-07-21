@@ -1,40 +1,33 @@
 # AI美股实验室 | AI US Stock Lab
 
-AI-powered tools and workflows for U.S. stock research.
+I build local AI tools for difficult decisions, software work, and verifiable public-company research.
 
-我在做一个面向美股研究和内容创作的 AI 工具实验室：把市场热点、公开信息、财报公告、电话会材料和内容生产流程，逐步沉淀成可复用的小工具、脚本和 Codex skills。
+我在做一组本地优先的 AI 工具：让多个 CLI agent 一起讨论、质疑和审查决策，也把重复的美股研究流程沉淀成可复用的 Codex skills。
 
-This is a practical lab for turning repeated U.S. stock research workflows into small, useful AI-assisted tools.
+## Roundtable
 
-> Not investment advice. This account focuses on public information processing, research workflows, and tooling experiments.
+[Roundtable](https://github.com/ai-us-stock-lab/roundtable) brings Codex, Claude Code, Gemini CLI, and other AI CLIs into one local workbench.
 
-## Current Focus | 当前方向
+Use the Workbench for multi-CLI conversations and isolated code changes. When a decision needs more scrutiny, move it into a structured committee: agents give independent first takes, challenge one another, classify disagreements, and produce an evidence-linked verdict.
 
-- U.S. stock research tools | 美股投资研究工具
-- Market hotspot tracking | 市场热点追踪
-- Filings, earnings, and transcript workflows | 公告、财报、电话会材料整理
-- AI agent and Codex skills experiments | AI agent / Codex skills 实验
-- Data-to-content automation | 从资料到内容的自动化流程
+- Runs locally on `127.0.0.1`
+- Uses the AI CLI subscriptions you already have
+- Keeps each CLI's skills, memory, and global instructions
+- Has no third-party runtime dependencies
+- Supports English and Chinese
 
-## What I Am Building | 我在构建什么
+[Watch the 67-second walkthrough](https://github.com/ai-us-stock-lab/roundtable/blob/master/docs/demo-en.mp4) · [Get v0.3.0](https://github.com/ai-us-stock-lab/roundtable/releases/tag/v0.3.0) · [Share a real test](https://github.com/ai-us-stock-lab/roundtable/issues/1)
 
-- Small tools for repeated research tasks
-- Public-source research workflows that are easier to verify and reuse
-- AI-assisted pipelines for topic discovery, material collection, and content drafting
-- Practical experiments for creators who follow U.S. stocks and AI tools
+## Research skills
 
-## Planned Repos | 计划中的项目
+- [Nantian Decision Framework](https://github.com/ai-us-stock-lab/nantian-decision-framework): demand-first decision support, company research, business planning, and report delivery.
+- [Disclosure Backtest](https://github.com/ai-us-stock-lab/disclosure-backtest-skill): compare a company's historical forward-looking statements with later official disclosures.
 
-- `market-hotspot-tracker` - 市场热点追踪与选题辅助
-- `filing-research-workflows` - 公告、财报、电话会研究流程
-- `codex-skills-lab` - 可复用的 Codex skills 和 agent workflows
-- `ai-stock-content-pipeline` - 从研究资料到内容草稿的自动化流程
+## Working principles
 
-## Principles | 原则
+- Start from the user's real decision and current substitute.
+- Prefer public, verifiable evidence.
+- Separate facts, assumptions, inferences, and counterevidence.
+- Keep tools local, inspectable, and reversible when possible.
 
-- Build small, useful tools first.
-- Prefer public and verifiable sources.
-- Separate facts, assumptions, and opinions.
-- Make workflows repeatable before making them fancy.
-
-如果这些方向对你有用，欢迎关注项目进展，或给有用的 repo 一个 star。
+> Research tooling only. Nothing here is investment advice.
