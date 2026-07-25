@@ -12,11 +12,12 @@ Use the Workbench for multi-CLI conversations and isolated code changes. When a 
 
 - Runs locally on `127.0.0.1`
 - Uses the AI CLI subscriptions you already have
-- Keeps each CLI's skills, memory, and global instructions
+- Uses full local CLI agents rather than bare model APIs
+- Builds explicit, auditable per-session context and capability profiles
 - Has no third-party runtime dependencies
 - Supports English and Chinese
 
-[Watch the 67-second walkthrough](https://github.com/ai-us-stock-lab/roundtable/blob/master/docs/demo-en.mp4) · [Get v0.3.1](https://github.com/ai-us-stock-lab/roundtable/releases/tag/v0.3.1) · [Share a real test](https://github.com/ai-us-stock-lab/roundtable/issues/1)
+[Watch the 67-second walkthrough](https://github.com/ai-us-stock-lab/roundtable/blob/master/docs/demo-en.mp4) · [Get v0.4.1](https://github.com/ai-us-stock-lab/roundtable/releases/tag/v0.4.1) · [Share a real test](https://github.com/ai-us-stock-lab/roundtable/issues/1)
 
 ## Research skills
 
